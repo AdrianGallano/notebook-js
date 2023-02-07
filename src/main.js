@@ -16,7 +16,7 @@ const Book = module.require("./notebook")
 
 function start() {
 
-	main:while (true) {
+	mainLoop:while (true) {
 		alert(`
 		1: create a notebook
 		2: retrieve a notebook
@@ -43,7 +43,7 @@ function start() {
 				break;
 			default:
 				console.log("please enter a valid option")
-				continue main;
+				continue mainLoop;
 			
 		}
 	}

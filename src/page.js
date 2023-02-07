@@ -11,10 +11,10 @@ let pageNum = 0;
 function Page(title, paragraph) {
 	this.title = title;
 	this.paragraph = paragraph;
-	this.date_created = date.format(now, pattern);
-	this.date_modified = date.format(now, pattern);
-	this.time_created = date.format(now, 'hh:mm A [GMT]Z');
-	this.time_modified = date.format(now, pattern);
+    this.dateCreated = date.format(now, pattern);
+	this.dateModified = date.format(now, pattern);
+	this.timeCreated = date.format(now, 'hh:mm A [GMT]Z');
+	this.timeModified = date.format(now, pattern);
 	this.pageNum = ++pageNum;
 
 }

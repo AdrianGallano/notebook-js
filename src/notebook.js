@@ -14,10 +14,14 @@
 const date = module.require('date-and-time');
 const Page = module.require("./page");
 
-function Notebook(Notebook, category, isGoodRead = true){
-    this._Notebook = Notebook
-    this._category = category
-    this._isGoodRead = isGoodRead
+function Notebook(notebookName, category, isGoodRead = true){
+    this.notebookName = notebookName
+    this.category = category
+    this.isGoodRead = isGoodRead
+    this.dateCreated = date.format(now, pattern);
+	this.dateModified = date.format(now, pattern);
+	this.timeCreated = date.format(now, 'hh:mm A [GMT]Z');
+	this.timeModified = date.format(now, pattern);
     this.pages = []
 }
 
