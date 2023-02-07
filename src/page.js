@@ -17,15 +17,6 @@ function Page(title, paragraph) {
 	this.time_modified = date.format(now, pattern);
 	this.pageNum = ++pageNum;
 
-
-/* 		Page ${this.pageNum}
-		Title: ${this.title}
-		Date created: ${this.date_created}
-		Date modified: ${this.date_modified}
-		Time created: ${this.time_created}
-		Time modified: ${this.time_modified}
-		
-		${this.paragraph} */
 }
 
 module.export = Page

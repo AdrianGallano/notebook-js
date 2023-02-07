@@ -1,14 +1,14 @@
 {
-  "name": "bookjs",
+  "name": "notebookjs",
   "version": "1.0.0",
-  "description": "book project",
+  "description": "notedbook project",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AdrianGallano/book-js.git"
+    "url": "git+https://github.com/AdrianGallano/notedbook-js.git"
   },
   "keywords": [
     "html",
@@ -19,9 +19,9 @@
   "author": "Adrian Gallano",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AdrianGallano/book-js/issues"
+    "url": "https://github.com/AdrianGallano/notedbook-js/issues"
   },
-  "homepage": "https://github.com/AdrianGallano/book-js#readme",
+  "homepage": "https://github.com/AdrianGallano/notedbook-js#readme",
   "dependencies": {
     "date-and-time": "^2.4.2"
   }

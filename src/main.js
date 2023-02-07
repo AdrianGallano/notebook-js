@@ -11,16 +11,16 @@
 */
 
 
-const Book = module.require("./book")
+const Book = module.require("./notebook")
 
 
 function start() {
 
 	main:while (true) {
 		alert(`
-		1: create a book
-		2: display books
-		3: pick a book
+		1: create a notebook
+		2: retrieve a notebook
+		3: update a notebook
 		4: delete a book
 		5: exit app`)
 
